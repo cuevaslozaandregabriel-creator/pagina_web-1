@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Web Multimedia - Síntesis de Podcast</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Encabezado Principal de la Página -->
+  <header class="main-header">
+    <div class="header-content">
+      <h1>Portal Multimedia: Podcast & Tecnolog&iacute;a</h1>
+      <p class="subtitle">An&aacute;lisis y s&iacute;ntesis del episodio</p>
+    </div>
+    
+    <!-- Menú de Navegación Tradicional sin Flexbox -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#resumen">Resumen</a></li>
+        <li><a href="#podcast-video">Podcast</a></li>
+        <li><a href="#puntos-clave">Puntos Clave</a></li>
+        <li><a href="#galeria">Galer&iacute;a</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="main-container">
+
+    <!-- Sección del Resumen Ejecutivo -->
+    <section id="resumen" class="section-block">
+      <article>
+        <h2>Resumen Ejecutivo</h2>
+        <p>
+          En este episodio se analizan los avances clave de la tecnología moderna, la ciberseguridad, 
+          la inteligencia artificial y cómo la geopolítica digital está transformando nuestro entorno actual.
+        </p>
+        <blockquote class="highlight-quote">
+          "La innovación no se trata solo de la tecnología que creamos, sino del impacto humano y social que generamos con ella."
+        </blockquote>
+      </article>
+    </section>
+
+    <!-- Sección del Video de YouTube Incrustado (Actualizado con el nuevo enlace) -->
+    <section id="podcast-video" class="section-block">
+      <h2>Episodio del Podcast</h2>
+      <p>Reproduce el video original del podcast a continuación:</p>
+      
+      <!-- Contenedor fluido para mantener proporción 16:9 con CSS tradicional -->
+      <figure class="video-responsive-container">
+        <iframe 
+          src="https://www.youtube.com/embed/vfMUclkcpCE" 
+          title="Reproductor de Podcast de YouTube" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </figure>
+    </section>
+
+    <!-- Sección de Puntos Clave / Ejes Temáticos -->
+    <section id="puntos-clave" class="section-block">
+      <h2>Ejes Tem&aacute;ticos y Puntos Clave</h2>
+      
+      <!-- Artículos usando inline-block para distribución responsiva fluida -->
+      <article class="col-3">
+        <h3>1. Ciberseguridad y Riesgos</h3>
+        <p>An&aacute;lisis profundo sobre la evoluci&oacute;n de las amenazas digitales y la geopol&iacute;tica.</p>
+      </article>
+
+      <article class="col-3">
+        <h3>2. Herramientas e IA</h3>
+        <p>Implementaci&oacute;n de nuevas tecnolog&iacute;as e impacto de la inteligencia artificial.</p>
+      </article>
+
+      <article class="col-3">
+        <h3>3. Conclusiones</h3>
+        <p>Estrategias y visi&oacute;n a futuro sobre la protecci&oacute;n y el desarrollo digital.</p>
+      </article>
+
+      <!-- Clearfix para limpiar el flujo flotante/inline -->
+      <div class="clearfix"></div>
+    </section>
+
+    <!-- Sección Galería de Imágenes Adaptable sin Flexbox/Grid -->
+    <section id="galeria" class="section-block">
+      <h2>Galer&iacute;a de Referencia</h2>
+      <div class="gallery-container">
+        
+        <figure class="gallery-card">
+          <img src="img/imagen1.jpg" alt="Eje Tematico 1">
+          <figcaption>Ecosistema Tecnol&oacute;gico</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="img/imagen2.jpg" alt="Eje Tematico 2">
+          <figcaption>Inteligencia Artificial</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="img/imagen3.jpg" alt="Eje Tematico 3">
+          <figcaption>Desarrollo Digital</figcaption>
+        </figure>
+
+        <div class="clearfix"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="main-footer">
+    <p>&copy; 2026 Portal Web Multimedia — Desaf&iacute;o de Programaci&oacute;n Web I</p>
+  </footer>
+
+</body>
+</html>
